@@ -1,11 +1,12 @@
 package com.example.ktech_project3.service;
 
-import com.example.project_3.RequestStatus;
-import com.example.project_3.dto.PurchaseRequestDTO;
-import com.example.project_3.entity.*;
-import com.example.project_3.repo.ProductRepository;
-import com.example.project_3.repo.PurchaseRequestRepository;
-import com.example.project_3.repo.UserRepository;
+
+import com.example.ktech_project3.RequestStatus;
+import com.example.ktech_project3.dto.PurchaseRequestDTO;
+import com.example.ktech_project3.entity.PurchaseRequest;
+import com.example.ktech_project3.repo.ProductRepository;
+import com.example.ktech_project3.repo.PurchaseRequestRepository;
+import com.example.ktech_project3.repo.UserRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

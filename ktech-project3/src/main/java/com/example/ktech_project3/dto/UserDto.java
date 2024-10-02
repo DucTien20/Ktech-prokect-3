@@ -1,6 +1,6 @@
-package com.example.ktech_project3.user.dto;
+package com.example.ktech_project3.dto;
 
-import com.example.ktech_project3.dto.ShopDetails;
+import com.example.project_3.entity.User;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -39,8 +39,8 @@ public class UserDto {
     @Setter
     private List<ShopDetails> ownedShops;
 
-    public static com.example.ktech_project3.dto.UserDto fromEntity(User entity) {
-        com.example.ktech_project3.dto.UserDto dto = new com.example.ktech_project3.dto.UserDto();
+    public static UserDto fromEntity(User entity) {
+        UserDto dto = new UserDto();
         dto.id = entity.getId();
         dto.username = entity.getUsername();
         dto.password = "********";
