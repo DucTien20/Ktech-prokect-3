@@ -39,48 +39,6 @@ public class UserService implements UserDetailsService {
         this.repository = repository;
         this.shopRepository = shopRepository;
 
-//        User hanh = new User();
-//        hanh.setUsername("haeun");
-//        hanh.setPassword(passwordEncoder.encode("123456"));
-//        hanh.setNickname("haeun29");
-//        hanh.setFullName("이하은");
-//        hanh.setAgeGroup(20);
-//        hanh.setEmail("hanh291029@naver.com");
-//        hanh.setPhone("01067652699");
-//        hanh.setAuthorities("ROLE_ADMIN");
-//        hanh.setActive(true);
-//        this.repository.save(hanh);
-//
-//        User alex = new User();
-//        alex.setUsername("alex");
-//        alex.setPassword(passwordEncoder.encode("password"));
-//        hanh.setAuthorities("ROLE_DEFAULT");
-//        this.repository.save(alex);
-//
-//        User chad = new User();
-//        chad.setUsername("chad");
-//        chad.setPassword(passwordEncoder.encode("password"));
-//        chad.setAuthorities("ROLE_USER");
-//        chad.setNickname("chad123");
-//        chad.setFullName("Chad Tran");
-//        chad.setAgeGroup(40);
-//        chad.setEmail("chad@gmail.com");
-//        chad.setPhone("01063452269");
-//        chad.setActive(true);
-//        this.repository.save(chad);
-//
-//        User tran = new User();
-//        tran.setUsername("tranLam");
-//        tran.setPassword(passwordEncoder.encode("password"));
-//        tran.setNickname("wuan");
-//        tran.setFullName("LAMHUYENTRAN");
-//        tran.setAgeGroup(20);
-//        tran.setEmail("huyentran@gmail.com");
-//        tran.setPhone("01043920027");
-//        tran.setAuthorities("ROLE_BUSINESS");
-//        tran.setActive(true);
-//        this.repository.save(tran);
-
     }
 
     // CREATE
